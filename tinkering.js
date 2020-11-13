@@ -1,7 +1,9 @@
-function multiply (a,b){
-  return a*b;
+var laugh = function(num){
+  let output = "";
+  for (i=0; i<num; i++){
+      output = ouput + "ha";
+  }
+  return output;
 }
 
-const result = multiply(2,4);
-
-console.log(result);
+console.log(laugh(10));
