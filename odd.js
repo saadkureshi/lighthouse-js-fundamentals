@@ -3,3 +3,4 @@ const isOdd = function(num){
 }
 
 console.log(isOdd(3));
+
